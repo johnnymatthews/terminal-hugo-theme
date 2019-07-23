@@ -65,6 +65,10 @@ h2, h3, h4, h5, h6 {
     margin-top: var(--font-size);
 }
 
+p span {
+    color: var(--text-span-colour);
+}
+
 a {
     text-decoration: none;
     color: var(--link-colour);
@@ -113,14 +117,6 @@ nav li a:hover {
 nav .active {
     background-color: var(--menu-text-colour);
     color: white;
-}
-
-p span {
-    color: var(--text-span-colour);
-}
-
-contact p {
-    cursor: pointer;
 }
 
 footer {
