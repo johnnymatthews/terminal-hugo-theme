@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Joe Doe's Blog"
+theme = "terminal-theme"
+
+[params]
+copyrighthtml = "Copyright &#xA9; 2017 John Doe. All Rights Reserved."
+enableReadability = true
+
+[menu]
+
+    [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+    [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 30
+
+    [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40

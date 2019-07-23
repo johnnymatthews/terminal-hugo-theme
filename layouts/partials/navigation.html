@@ -1,0 +1,11 @@
+<nav>
+    <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            <li><a class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        {{ if .Site.Params.enableReadability }}
+            <li><a onclick="marx()" style="cursor: pointer">Read-Mode</a></li>
+        {{ end }}
+    </ul>
+</nav>

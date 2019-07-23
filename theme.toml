@@ -1,0 +1,12 @@
+name = "Terminal Theme"
+license = "MIT"
+licenselink = "https://github.com/mohnjatthews/terminal-hugo-theme/blob/master/LICENSE"
+description = "A theme based around old-school text terminals from the 1970s, early 1980s."
+homepage = "https://mohnjatthews.com/"
+tags = ['terminal', 'code', 'simple', 'text-based', 'light', 'lightweight']
+features = ['Turn readability mode on.', 'Mobile friendly by default.']
+min_version = "0.41"
+
+[author]
+  name = "Johnny Matthews"
+  homepage = "https://mohnjatthews.com"
