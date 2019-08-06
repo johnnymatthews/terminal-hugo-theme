@@ -65,6 +65,10 @@ h2, h3, h4, h5, h6 {
     margin-top: var(--font-size);
 }
 
+p + p {
+    padding-top: var(--font-size);
+}
+
 p span {
     color: var(--text-span-colour);
 }
@@ -88,6 +92,8 @@ nav ul {
     margin-bottom: var(--font-size);
     overflow: hidden;
     background-color: var(--menu-background-colour);
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 nav li {
@@ -119,16 +125,17 @@ nav .active {
     color: white;
 }
 
-footer {
-    color: var(--footer-text-colour);
-    background: var(--footer-background-colour);
-    margin-top: var(--font-size);
-    padding-left: var(--font-size);
-    padding-right: var(--font-size);
+ul, ol {
+    display: block;
+    padding-left: 40px;
 }
 
-footer a {
-    color: var(--footer-text-colour);
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
 }
 
 pre {
@@ -140,7 +147,42 @@ pre {
     padding-bottom: var(--font-size);
     padding-left: var(--font-size);
     padding-right: var(--font-size);
-    overflow-x:scroll;
+    overflow-x: scroll;
     background: #1a1a1a;
     color: #66ff66;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #0f0f0f;
+}
+
+img {
+    padding: var(--font-size);
+    display:block;
+    margin:auto;
+    width: 80%;
+    height: auto;
+}
+
+footer {
+    color: var(--footer-text-colour);
+    background: var(--footer-background-colour);
+    margin-top: var(--font-size);
+    padding-left: var(--font-size);
+    padding-right: var(--font-size);
+}
+
+footer a {
+    color: var(--footer-text-colour);
 }
