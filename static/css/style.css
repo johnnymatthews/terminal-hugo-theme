@@ -46,6 +46,7 @@ h1 {
     padding-top: var(--font-size);
     padding-bottom: var(--font-size);
     padding-left: var(--font-size);
+    margin-bottom: var(--font-size);
 }
 
 h2 { color: var(--header-two-colour); }
