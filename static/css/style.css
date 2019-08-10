@@ -153,6 +153,11 @@ pre {
     color: #66ff66;
 }
 
+code {
+    background: #1a1a1a;
+    color: #66ff66;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
